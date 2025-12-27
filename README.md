@@ -22,3 +22,15 @@ Filter the input list to include only salaries greater than 3000.
 Increase each filtered salary by 10%.
 Sum all the increased salaries.
 Return the total as an integer.
+
+_______________________________________________
+
+Challenge: Event Handler with Lambda
+
+Imagine you are building a notification system for a messaging app. Whenever a new message arrives, you want to process it—perhaps by displaying a notification, logging it, or triggering some other action. Instead of hard-coding the response, you decide to use a lambda expression to handle the event, making your system flexible and easy to extend. In this scenario, a lambda can be passed as an event handler to process each new message as it arrives.
+
+Task
+Implement a method to process new messages using a lambda expression.
+
+The method must take a String message and a Consumer<String> lambda as parameters.
+The method must apply the provided lambda to the message.
