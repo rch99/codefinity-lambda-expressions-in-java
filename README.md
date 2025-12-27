@@ -1,3 +1,16 @@
+Challenge: Implement a Custom Predicate
+Imagine you are building a product search feature for an online store. You want to help users quickly find products by filtering a list of product names. For instance, you might want to find all products that start with the letter "S". Instead of hardcoding the filtering logic, you decide to create a custom predicate interface that allows you to pass any filtering condition as a lambda expression. This makes your code flexible and reusable for different search criteria.
+
+Task
+Completed
+Implement a method to filter a list of strings using a custom predicate. The method should apply the predicate to each string and return a new list containing only the strings that match the predicate.
+
+Iterate through each element in the items list.
+For each element, check if it satisfies the predicate.
+If the element satisfies the predicate, add it to a new list.
+Return the new list containing all matching elements.
+
+----------------------------------------------
 Challenge: Stream Data Processing
 Imagine you are managing payroll for a company and need to process a list of employee salaries. Your goal is to identify all employees earning above a certain threshold, give those employees a 10% raise, and then calculate the total cost of these increased salaries. Using Java's Stream API and lambda expressions can make this task concise and expressive, allowing you to filter, transform, and aggregate data efficiently in a single pipeline.
 
